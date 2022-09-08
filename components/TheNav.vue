@@ -1,6 +1,9 @@
 <template>
   <header class="header">
     <nav class="inner">
+      <NuxtLink to="/welcome">
+        <strong>Welcome</strong>
+      </NuxtLink>
       <NuxtLink to="/">
         <strong>HN</strong>
       </NuxtLink>

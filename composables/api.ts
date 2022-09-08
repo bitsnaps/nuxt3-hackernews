@@ -9,6 +9,7 @@ const mapStories = {
 };
 
 const get = (path: string) =>
+  // the old way: fetch(...).then(...)
   $fetch(path, {
     headers: { "User-Agent": "chrome" },
   });
