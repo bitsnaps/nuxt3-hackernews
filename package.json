@@ -8,6 +8,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@latest"
+    "nuxt": "3.0.0-rc.11"
   }
 }
